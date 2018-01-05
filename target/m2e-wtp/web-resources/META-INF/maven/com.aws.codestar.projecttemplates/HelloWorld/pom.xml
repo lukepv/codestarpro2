@@ -1,24 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.springclientserver</groupId>
-    <artifactId>SpringClientServer</artifactId>
+    <groupId>com.aws.codestar.projecttemplates</groupId>
+    <artifactId>HelloWorld</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
     <name>Sample Java Spring web service Using AWS CodeStar</name>
-   <parent>
-     <groupId>org.springframework.boot</groupId>
-     <artifactId>spring-boot-starter-parent</artifactId>
-     <version>1.5.6.RELEASE</version>
- </parent>
- 
-     <properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>1.8</java.version>
-		 <start-class>com.springclientserver.SpringClientServer</start-class>
-	</properties>
- 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.4.3.RELEASE</version>
+    </parent>
 
     <dependencies>
         <dependency>
