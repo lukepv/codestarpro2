@@ -1,6 +1,5 @@
 #!/bin/bash
 cd /home/ec2-user/javaapp
-
 rm -rf /opt/tomcat/webapps/ROOT
 rm -rf /opt/tomcat/webapps/ROOT.war
 mv /home/ec2-user/javaapp/ROOT.war /opt/tomcat/webapps/
